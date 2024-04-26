@@ -1,0 +1,12 @@
+.invisible {
+  color: transparent;
+}
+.visible {
+  font-family: var(--rtc-font-heading1-alt);
+  /*  para luego, un effecto mas claro como escribir a mano.
+  animation-duration: 0.75s;
+  animation-delay: 0.5s;
+  animation-name: animate-fade;
+  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+  animation-fill-mode: backwards; */
+}

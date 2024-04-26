@@ -1,0 +1,45 @@
+:root {
+  --rtc-color-card: var(--rtc-color-5);
+}
+/*TODO no se si tiene sentido el :root aqui pero no parece estar haciendo nada? */
+
+article.mt-post {
+  width: calc(var(--rtc-content-width-narrow) * 1.5);
+  margin: 50px;
+  border-radius: 8px;
+  background-color: var(--rtc-color-card);
+  overflow: hidden;
+  padding-bottom: 20px;
+  min-height: 300px;
+  justify-content: space-between;
+}
+.mt-post-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: var(--rtc-gap-s);
+  flex-direction: row;
+  font-size: x-small;
+}
+.mt-post-avatar {
+  width: fit-content;
+}
+
+.mt-post-avatar-image-big {
+  width: 50px;
+}
+
+.mt-post-avatar-image-big > img {
+  width: 50px;
+}
+
+.mt-post-counter-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.align-start {
+  align-items: start;
+}
