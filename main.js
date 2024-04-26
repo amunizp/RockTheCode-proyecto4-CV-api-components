@@ -99,5 +99,7 @@ socials(
   '@amunizp',
   5
 )
+//TODO averiguar como poner socials de linkedin.  https://learn.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api
+//por lo que parece solo puedo importar un perfil? ya cree el perfil de compañia necesaria.
 
 footer()
