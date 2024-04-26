@@ -1,4 +1,5 @@
 //en ntetify no funciona esto: preview: './src/data/c4ad-screenshot.png'
+//? https://answers.netlify.com/t/images-not-loading-vite-project-upload/78137
 
 export const cvData = {
   name: 'Andrés Muñiz Piniella',
@@ -126,20 +127,20 @@ export const cvData = {
       description:
         'Using a theme and modifying it with extra CSS and iFrame designs',
       link: 'https://gitlab.com/amunizp/c4ad-hugo',
-      preview: './images/c4ad-screenshot.png'
+      preview: './img/c4ad-screenshot.png'
     },
     {
       title: 'Static site',
       description:
         'Pure HTML+CSS website created following client design guidelines',
       link: 'https://github.com/amunizp/webpage',
-      preview: './images/rml-screenshot.png'
+      preview: './img/rml-screenshot.png'
     },
     {
       title: 'Static Site',
       description: 'Client website designed as per requirements',
       link: 'http://spongecreative.co.uk/',
-      preview: './images/spongecreative-screenshot.png'
+      preview: './img/spongecreative-screenshot.png'
     }
   ]
 }
