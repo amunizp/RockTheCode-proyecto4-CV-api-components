@@ -1,0 +1,12 @@
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  clip-path: circle(50% at 50% 50%);
+}
+.circle img {
+  width: 200px;
+  height: 200px;
+}

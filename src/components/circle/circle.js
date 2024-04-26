@@ -1,3 +1,4 @@
+import './circle.css'
 export function circle(aboutArticle, cvData, cycles) {
   //the parent
 

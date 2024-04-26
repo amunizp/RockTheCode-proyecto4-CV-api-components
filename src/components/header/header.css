@@ -10,3 +10,25 @@
   animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
   animation-fill-mode: backwards; */
 }
+h1 span {
+  color: var(--rtc-bg-blank-color);
+  font-family: var(--rtc-font-heading1);
+}
+header {
+  /* padding: var(--rtc-padding-m); */
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10svh;
+  height: fit-content;
+  background-color: var(--rtc-bg-primary);
+  z-index: 99;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--rtc-gap-m);
+  /* margin-bottom: var(--rtc-margin-m); */
+  align-items: center;
+  align-items: start;
+}
